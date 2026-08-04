@@ -1045,7 +1045,7 @@ function renderWorkSits(){
   const m=document.getElementById('mapembed');
   if(MAP_URL){
     m.classList.add('has-map');
-    m.innerHTML=`<iframe src="${MAP_URL}" title="Canton GIS map" loading="lazy"
+    m.innerHTML=`<iframe  width="800" height="600" frameborder="0" scrolling="no" allowfullscreen src"${"https://arcg.is/0yyPKK"}" title="Canton GIS map" loading="lazy"
                    allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>`;
   } else {
     m.classList.remove('has-map');
